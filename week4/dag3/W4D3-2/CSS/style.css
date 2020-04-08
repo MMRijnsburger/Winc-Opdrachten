@@ -1,0 +1,101 @@
+@import url(https://fonts.googleapis.com/css?family=Oswald:700);
+
+body  {
+  background:rgb(223, 223, 223);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container  {
+  margin: 0 auto;
+  width: 800px;
+  padding: 10px;
+}
+
+h1  {
+  color:#000;
+  font-family:'Oswald';
+  font-weight:700;
+  text-transform:uppercase;
+  width:550px;
+}
+
+nav   {
+  margin: 0;
+}
+
+ul  {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: darkblue;
+}
+
+li  {
+  float: left;
+  margin-left: 5px;
+}
+
+li:nth-child(1) {
+  margin-left: 0;
+}
+
+li a {
+  display: block;
+  padding: 14px 16px;
+  margin: 0;
+  color: white;
+  text-decoration: none;
+}
+
+li a:hover  {
+  background-color: cornflowerblue;
+}
+
+li input {
+  display: block;
+  margin: 14px 16px;
+  color: grey;
+}
+
+input:focus {
+  border: 2px solid aqua;
+}
+
+.currentPage  {
+  background-color: rgb(72, 72, 110);
+}
+
+/* unvisited link */
+a#link3:link  {
+  color: black;
+}
+
+/* visited link */
+a#link3:visited {
+  color: yellow;
+}
+
+/* mouse over link */
+a#link1:hover {
+  color: #4A90E2;
+  font-weight: bold;
+}
+
+/* selected link */
+a#link2:active  {
+  color: red;
+  font-style: italic;
+}
+
+/* text input size */
+#input-deel1 {
+  width: 400px;
+  height: 20px;
+}
+
+/* focus on text input */
+#input-deel1:focus {
+  color: green;
+  font-size: 20px;
+}
